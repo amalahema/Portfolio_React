@@ -161,9 +161,22 @@ footer {
   box-shadow: 0 0 60px rgba(44, 42, 42, 0.5);
 }
 
+.resume-text {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #b93e05;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 23px;
+}
 
-
-
+.resume-text:hover {
+  background-color: #d96029;
+}
 
 
 
