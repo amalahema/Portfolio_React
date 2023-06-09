@@ -142,7 +142,7 @@ footer nav ul li {
 
 footer nav ul li a {
   text-decoration: none;
-  color: #b86139;
+  color:  #b93e05;
   font-size: 36px;
   text-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
   transition: color 0.3s ease;
@@ -177,6 +177,59 @@ footer {
 .resume-text:hover {
   background-color: #d96029;
 }
+.project-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.project-img {
+  flex: 1 12%;
+  margin-right: 250px;
+  opacity: 1.5;
+  filter: alpha(opacity=40);
+   margin-top: 60px; /* Add margin-top to create space */
+   margin-left: 100px ;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  border: 2px solid #161616; /* Add a border to the image */
+
+
+
+}
+
+
+.project-img:hover {
+  opacity: 1.0;
+  /* transition: .5s ease; */
+  transform: scale(1.01);
+}
+.project-img img:hover {
+  /*    transition: .5s ease-in-out;*/
+  border: 5px solid #1a1919;
+  transform: scale(1.1);
+}
+
+.project-img img:hover::after {
+  transition: .5s ease;
+
+}
+
+.project-summary {
+  flex: 12;
+}
+
+.project-summary p,h4 {
+  color: #db6b02;
+  font-size: 28px;
+}
+
+
 
 
 
