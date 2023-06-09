@@ -18,7 +18,7 @@ import About from "../src/Components/About";
 import Header from "../src/Components/Header";
 import Footer from "../src/Components/Footer";
 import Resume from "../src/Components/Resume";
-//import Contact from "../src/Components/Portfolio";
+import Portfolio from "../src/Components/Portfolio";
 //import Contact from "../src/Components/Contact";
 function App() {
   const [currentPage, handlePageChange ] = useState("about");
@@ -31,9 +31,9 @@ function App() {
     //  if (currentPage === "Contact") {
     //    return <Contact />;
     // }
-    // if (currentPage === "Portfolio") {
-    //   return <Portfolio />;
-    // }
+     if (currentPage === "Portfolio") {
+      return <Portfolio />;
+    }
      if (currentPage === "Resume") {
        return <Resume />;
     }

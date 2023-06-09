@@ -5,10 +5,10 @@ import avatar from "../../Assets/amala.png"
 function About(){
     return(
         <section className="my-5 intro">
-            <div class="flex-row">
-                <h1 id="about" className="section-title primary-border">Amala Hema Francis</h1>
+            <div>
+                <h1>Amala Hema Francis</h1>
             </div>
-            <div className="flex-row">
+            <div>
               <div class="intro-info">
                 <div class="intro-img">
                     <img src={avatar} style={{ width: "100%" }} alt="profile" />
