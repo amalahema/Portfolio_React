@@ -8,12 +8,6 @@ export default App;*/
 
 import "./App.css";
 import React, { useState } from "react";
-//import Header from "./Components/Header";
-//import Footer from "./Components/Footer";
-//import About from "./Components/About";
-//import Portfolio from "./Components/Portfolio";
-//import Contact from "./Components/Contact";
-//import Resume from "./Components/Resume";
 import About from "../src/Components/About";
 import Header from "../src/Components/Header";
 import Footer from "../src/Components/Footer";
