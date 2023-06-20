@@ -1,13 +1,13 @@
 import React from "react";
 import workout from "../../Assets/workout.png";
 import sales from "../../Assets/sales.jpg";
-import event from "../../Assets/event.jpg";
+import event from "../../Assets/event.PNG";
 function Portfolio()
 {
     return(
         
           <div>
-            
+
           <div className="project-info">
             <div className="project-img">
               <a href="https://github.com/amalahema/go-super-team-1-">
