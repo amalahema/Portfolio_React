@@ -44,6 +44,28 @@ function Portfolio()
               </p>
             </div>
           </div>
+
+
+          <div className="project-info">
+            <div className="project-img">
+              <a href= "https://github.com/amalahema/Event-Planner">
+                {" "}
+                <img
+                  src={sales}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Event Planner"
+                />
+              </a>
+            </div>
+
+            <div className="project-summary">
+              <h4>Event PLanner</h4>
+              <p>
+                We can add, update & delete event using Event Planner
+              </p>
+            </div>
+          </div>
         </div> 
         
       
