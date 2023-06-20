@@ -1,6 +1,7 @@
 import React from "react";
 import workout from "../../Assets/workout.png";
 import sales from "../../Assets/sales.jpg";
+import event from "../../Assets/event.jpg";
 function Portfolio()
 {
     return(
@@ -41,6 +42,28 @@ function Portfolio()
               <h4>Marketplace</h4>
               <p>
               This site offers many different products from many different sellers
+              </p>
+            </div>
+          </div>
+
+
+          <div className="project-info">
+            <div className="project-img">
+              <a href= "https://flawlessfunction.herokuapp.com/">
+                {" "}
+                <img
+                  src={event}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Event Planner"
+                />
+              </a>
+            </div>
+
+            <div className="project-summary">
+              <h4>Event PLanner</h4>
+              <p>
+                We can add, update & delete event using Event Planner
               </p>
             </div>
           </div>
