@@ -7,6 +7,7 @@ function Portfolio()
     return(
         
           <div>
+            
           <div className="project-info">
             <div className="project-img">
               <a href="https://github.com/amalahema/go-super-team-1-">
@@ -27,6 +28,7 @@ function Portfolio()
             </div>
           </div>
           <div className="project-info">
+
             <div className="project-img">
               <a href="https://github.com/amalahema/Jungslist">
                 {" "}
@@ -38,16 +40,19 @@ function Portfolio()
                 />
               </a>
             </div>
+
             <div className="project-summary">
               <h4>Marketplace</h4>
               <p>
               This site offers many different products from many different sellers
               </p>
             </div>
+
           </div>
 
 
           <div className="project-info">
+
             <div className="project-img">
               <a href= "https://flawlessfunction.herokuapp.com/">
                 {" "}
@@ -66,7 +71,9 @@ function Portfolio()
                 We can add, update & delete event using Event Planner
               </p>
             </div>
+
           </div>
+
         </div> 
         
       
