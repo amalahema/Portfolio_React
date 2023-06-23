@@ -21,33 +21,14 @@ function Portfolio() {
         </div>
 
         <div className="project-summary">
-          <h4>Event PLanner</h4>
+          <h4>Event Planner</h4>
           <p>
-            We can add, update & delete event using Event Planner
+            This is an event planner website built on the MERN (MongoDB, Express.js, React, Node.js) stack, with MongoDB used as the backend database. GraphQL can be seamlessly integrated into this stack to handle the API layer and facilitate the functionality of adding, updating, and deleting events.
           </p>
         </div>
 
       </div>
 
-      <div className="project-info">
-        <div className="project-img">
-          <a href="https://github.com/amalahema/go-super-team-1-">
-            {" "}
-            <img
-              src={workout}
-              className="my-2"
-              style={{ width: "100%" }}
-              alt="Workout_Dashboard"
-            />
-          </a>
-        </div>
-        <div className="project-summary">
-          <h4>Workout Dashboard</h4>
-          <p>
-            Workout and Nutritional API are used in this project.This project filters the data as the visual format from the API
-          </p>
-        </div>
-      </div>
       <div className="project-info">
 
         <div className="project-img">
@@ -65,11 +46,34 @@ function Portfolio() {
         <div className="project-summary">
           <h4>Marketplace</h4>
           <p>
-            This site offers many different products from many different sellers
+            This project is an online marketplace where users can sell their own items and browse items for sale based on location. It is built using Express.js as the backend web application framework and MySQL as the database management system.
+            <br />
+            Check out the project demo <a href="https://drive.google.com/file/d/1XD-YDu_T2qnof2SQU_EHh5ZAJHTEybyW/view">here</a>.
           </p>
         </div>
-
       </div>
+
+
+      <div className="project-info">
+        <div className="project-img">
+          <a href="https://github.com/amalahema/go-super-team-1-">
+            {" "}
+            <img
+              src={workout}
+              className="my-2"
+              style={{ width: "100%" }}
+              alt="Workout_Dashboard"
+            />
+          </a>
+        </div>
+        <div className="project-summary">
+          <h4>Workout Dashboard</h4>
+          <p>
+            This project utilizes a Workout and Nutritional API to fetch data for a fitness-oriented application. The project is built on JavaScript and incorporates HTML and CSS/Bootstrap for designing and structuring the layout of the application. Additionally, two APIs are utilized to retrieve dynamic data, which can be manipulated using JavaScript to further customize the page.
+          </p>
+        </div>
+      </div>
+
 
 
 
