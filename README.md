@@ -120,7 +120,10 @@ When you run the deployment script using gh-pages (e.g., npm run deploy or yarn 
 
 - Now your react ready to deploy
 
-
-
+- How run the page after update
+  -   git add -A
+  -   git commit -m "project 3 added to existing page"
+  -   npm run build//to get the static files
+  -   npm run deploy
 
 
