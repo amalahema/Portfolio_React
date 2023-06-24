@@ -24,6 +24,8 @@ function Portfolio() {
           <h4>Event Planner</h4>
           <p>
             This is an event planner website built on the MERN (MongoDB, Express.js, React, Node.js) stack, with MongoDB used as the backend database. GraphQL can be seamlessly integrated into this stack to handle the API layer and facilitate the functionality of adding, updating, and deleting events.
+            <br />
+            Check out the project demo<a href = "https://drive.google.com/file/d/1sdOABqQi1sd_dAC7opwpk5fzljxo-ce6/view"> here </a>
           </p>
         </div>
 
