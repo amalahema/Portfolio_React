@@ -1,6 +1,6 @@
 index.js is the  is the entry point of a React application that  renders the root component (App) into the HTML element with the ID of 'root'.
 Root element is in the public folder index.html  <div id="root">
-pp.js file represents a Single Page Application (SPA) structure using React.
+App.js file represents a Single Page Application (SPA) structure using React.
 
 App.js file represents a Single Page Application (SPA) structure using React.
 
@@ -49,6 +49,8 @@ The gh-pages package simplifies the deployment process by automatically creating
 Now go to gitrepo you find gp-pages.
 Settings=>Pages=>select gppage
 Now your react ready to deploy
+how to run the portfolio 
+npm start
 
  
   
