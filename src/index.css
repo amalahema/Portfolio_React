@@ -388,7 +388,7 @@ a {
     font-size: 16px;
   }
   header {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .logo {
