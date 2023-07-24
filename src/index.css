@@ -413,11 +413,11 @@ a {
   }
 
   h4 {
-    font-size: 18px; /* Further reduce font size for smaller screens */
+    font-size: 18px; /* font size for smaller screens */
   }
 
   p {
-    font-size: 12px; /* Further reduce font size for smaller screens */
+    font-size: 12px; /*font size for smaller screens */
   }
 }
 
