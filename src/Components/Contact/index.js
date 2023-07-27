@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 
+
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../../utils/helpers";
 
@@ -59,13 +60,16 @@ function Contact() {
           <h3>Hello {userName}</h3>
           <p>Want to get into contact?</p>
           <address>
-            Cumming ,GA <br />
-            P: <a href="tel:989.654.3355">989.654.3355</a>
+            Address: Cumming ,GA <br />
+            Mobile: <a href="tel:989.654.3355">989.654.3355</a>
             <br />
-            E:{" "}
-            <a href="mailto://amalahema @yahoo.com">
-             amalahema @yahoo.com
-            </a>
+            Email:{" "}
+            <a href="mailto:amalahema@gmail.com">amalahema@gmail.com</a>
+            <br></br>
+            Linkedin: <a href="https://www.linkedin.com/in/amala-hema/">https://www.linkedin.com/in/amala-hema/</a>
+            <br></br>
+            GitHub: <a href= "https://github.com/amalahema">https://github.com/amalahema</a>
+            
           </address>
           <p>
             <strong>I'd love to hear your feedback!</strong>
