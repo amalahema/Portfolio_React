@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #c74410;
+  color: #b93e05;
+  background-color: #ffffff;
 
 }
 
@@ -15,7 +16,7 @@ code {
 }
 .intro p {
   line-height: 1.7;
-  color: #c74410;
+  color: #b93e05;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
@@ -106,7 +107,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
   background: #202020;
-  color: #D5F2EA;
+  color: #eff0ef;
   border-radius: 15px;
   text-shadow: none;
   /*    transition: .5s ease-in;*/
@@ -129,7 +130,7 @@ footer nav ul li {
 
 footer nav ul li a {
   text-decoration: none;
-  color:  #b93e05;
+  color: #b93e05;
   font-size: 36px;
   text-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
   transition: color 0.3s ease;
@@ -151,6 +152,7 @@ footer {
 .about-me
 {
   font-size: 26px; /* Set the desired text size */
+  color: #b93e05;
 }
 
 .resume-text {
@@ -186,7 +188,7 @@ li {
 }
 
 a {
-  color: #333;
+  color: #b93e05;
   text-decoration: none;
   font-size: 16px;
 }
@@ -238,7 +240,7 @@ a {
 }
 
 .project-summary p,h4 {
-  color: #db6b02;
+  color: #b93e05;
   font-size: 20px;
   line-height: 1.5; /* Adjust line-height as needed */
 }
@@ -285,7 +287,7 @@ a {
  .intro p{
   text-align: justify;
   line-height: 1.7;
-  color: #0E5259;
+  color: #b93e05;
   width: 80%;
   font-size: 18px; /* Updated font size */
   margin: 20px auto 30px; /* Adjust margin for better spacing */
@@ -349,7 +351,7 @@ a {
   {
     flex-direction: column; 
     padding: 10px;
-    background-color: #e9edf0;
+   
     border-radius: 5px;
     padding: 10px 0;
     width: 100%; /* Take full width */
@@ -399,6 +401,7 @@ a {
   }
 
   .intro p {
+    color: #b93e05;
     width: 90%; /* Set width to 100% to occupy the full width of the screen */
     font-size: 16px; /* Decrease font size for smaller screens */
     line-height: 1.5; /* Adjust line-height for better readability */
@@ -427,7 +430,7 @@ a {
   }
 
   nav ul li {
-    margin: 0 5px;
+    margin: 0 1px;
   }
 
   nav ul li a {
@@ -456,7 +459,7 @@ a {
     margin-top: 20px;
   }
   .project-summary p,h4 {
-    color: #db6b02;
+    color: #b93e05;
     font-size: 16px;
     line-height: 1.5; /* Adjust line-height as needed */
   }
@@ -467,6 +470,11 @@ a {
 
   p {
     font-size: 12px; /*font size for smaller screens */
+  }
+  header nav {
+    background-size: contain; /* Change background image size to contain for small screens,to keep the navbar within the place */
+    padding: 2px 0; /* Reduce padding for small screens */
+    font-size: 16px; /* Optional: Reduce font size for small screens */
   }
 }
 
